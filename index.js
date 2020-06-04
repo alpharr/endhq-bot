@@ -6,8 +6,8 @@ const bot = new Discord.Client();
 const PREFIX = "/";
 
 bot.on("ready", () =>{
-    console.log(">> BrokLands Bot, Loaded. <<");
-    bot.user.setActivity("BrokLands | /help");
+    console.log(">> EndHQ Bot, Loaded. <<");
+    bot.user.setActivity("EndHQ | /help");
 })
 
 bot.on("message", message=>{
