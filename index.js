@@ -45,7 +45,7 @@ bot.on('message', function(message){
     }
 })
 
-bot.on('message', message => {
+bot.on('message', message =>{
 
     const args = message.content.split(" ").slice(1);
     let saytext = args.join(" ");
