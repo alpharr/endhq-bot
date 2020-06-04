@@ -28,6 +28,8 @@ bot.on("message", message=>{
         case "store":
             message.channel.send("> **Store:** \n > https://store.endhq.cf");
         break;
+        case "test":
+            message.channel.send("a <#718098635476303922>")
     }
 })
 
