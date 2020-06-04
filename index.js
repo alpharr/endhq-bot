@@ -45,17 +45,4 @@ bot.on('message', function(message){
     }
 })
 
-bot.on('message', message =>{
-
-    const args = message.content.split(" ").slice(1);
-    let saytext = args.join(" ");
-
-    if(message.content.startsWith("?say")) {
-        message.channel.bulkDelete("1")
-        message.channel.send(saytext);
-    
-        
-    }
-
-
 bot.login(process.env.token);
