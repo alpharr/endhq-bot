@@ -20,7 +20,7 @@ bot.on("message", message=>{
             console.log("Hey! Someone executed the /ip command!");
         break;
         case "help":
-            message.channel.send("> ‣ **Help** \n > _ _ \n > **/ip** \n > **/help** \n > **/apply** \n > _ _");
+            message.channel.send("> ‣ **Help** \n > _ _ \n > **/ip** \n > **/help** \n > **/apply** \n > **/store** \n > _ _");
         break;
         case "apply":
             message.channel.send("> ‣ **Apply** \n > You may apply in *no link :(* !");
