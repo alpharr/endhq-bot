@@ -34,6 +34,8 @@ bot.on("message", message=>{
 bot.on('message', function(message){
     if(message.content == "hi"){
         message.channel.send("Hey there!");
+        message.react("🇭");
+        message.react("🇮");
     }
 })
 
