@@ -23,7 +23,7 @@ bot.on("message", message=>{
             message.channel.send("> ‣ **Help** \n > _ _ \n > **/ip** \n > **/help** \n > **/apply** \n > _ _");
         break;
         case "apply":
-            message.channel.send("> ‣ **Apply** \n > You may apply in *yo korudo is there a link or nah lmao* <@377918556911960069> !");
+            message.channel.send("> ‣ **Apply** \n > You may apply in *no link :(* !");
         break;
         case "store":
             message.channel.send("> **Store:** \n > https://store.endhq.cf");
