@@ -16,7 +16,7 @@ bot.on("message", message=>{
 
     switch(args[0]){
         case "ip":
-            message.channel.send("➥ `BrokLands.minehut.gg`");
+            message.channel.send("➥ `endhq.cf`");
             console.log("Hey! Someone executed the /ip command!");
         break;
         case "help":
@@ -25,8 +25,8 @@ bot.on("message", message=>{
         case "apply":
             message.channel.send("> ‣ **Apply** \n > You may apply in https://forms.gle/igAHXHMNR8jpKCyY8 !");
         break;
-        case "fantasia":
-            message.channel.send("> **Fantasia's Discord:** \n > https://discord.gg/QMPkeq9");
+        case "store":
+            message.channel.send("> **Store:** \n > https://store.endhq.cf");
         break;
     }
 })
